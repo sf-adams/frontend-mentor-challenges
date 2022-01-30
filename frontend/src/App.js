@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react';
+import {Routes, Route, useNavigate } from 'react-router-dom';
 
 const App = () => {
 
   return (
-    <div>
-      Hello World.
-    </div>
+<Routes>
+  <Route path="login" element={<Login />} />
+  <Route path="/*" element={<Home />} />
+</Routes>
   );
 };
 
