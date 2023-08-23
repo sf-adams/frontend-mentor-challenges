@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+  background: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+}
+
+.price-grid {
+  min-height: 100vh;
+  border-radius: 0.5rem;
+}
+
+/* grid-column: 1 / span 2; */
