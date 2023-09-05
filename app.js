@@ -1,19 +1,19 @@
 const challenges = [
+  // {
+  //   name: "qr-code-component",
+  //   link: "https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H",
+  //   youtube: "https://www.youtube.com",
+  // },
   {
     name: "3-column-preview-card-component",
     link: "https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-",
+    youtube: "https://www.youtube.com/watch?v=QhZUUM8DcCo",
+  },
+  {
+    name: "single-price-grid-component",
+    link: "https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc",
     youtube: "https://www.youtube.com",
   },
-  // {
-  //   name: "3-column-preview-card-component",
-  //   link: "https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-",
-  //   youtube: "https://www.youtube.com",
-  // },
-  // {
-  //   name: "3-column-preview-card-component",
-  //   link: "https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-",
-  //   youtube: "https://www.youtube.com",
-  // },
   // {
   //   name: "3-column-preview-card-component",
   //   link: "https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-",
