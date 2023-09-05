@@ -38,7 +38,7 @@ const createGrid = () => {
     const cardElement = document.createElement("li");
     cardElement.classList.add("card");
     cardElement.innerHTML = `
-      <a class="card__link" href="/${name}/index.html">
+      <a class="card__link" href="/frontend-mentor-challenges/${name}/index.html">
         <img class="card__img" src="/${name}/design/desktop-design.jpg" alt="${name}"/>
       </a>
       
@@ -51,7 +51,7 @@ const createGrid = () => {
       </p>
 
       <div class="links-container">
-        <a href="/${name}/index.html" class="blue">
+        <a href="/frontend-mentor-challenges/${name}/index.html" class="blue">
           <i class="fas fa-eye"></i>
         </a>
         <a href="${youtube}" class="youtube">
