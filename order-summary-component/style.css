@@ -1,0 +1,93 @@
+/* It is common to use the :root psuedo-class, so that custom properties can be applied globally across your HTML document */
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+/* The universal selector, or wildcard, will match elements of any type. It is used here to implement border-box and reset the margins on all elements. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--pale-blue);
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+  font-family: "Red Hat Display", sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+.summary {
+  background-color: white;
+  text-align: center;
+  max-width: 400px;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.summary__title {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.summary__text {
+  color: var(--desaturated-blue);
+  padding: 0 2rem;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  background-color: var(--very-pale-blue);
+  margin: 0 2rem;
+  padding: 0.75rem 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.plan__text-wrapper {
+  text-align: left;
+}
+
+.plan__title {
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.plan__price {
+  color: var(--desaturated-blue);
+}
+
+.plan__link {
+  margin: right;
+  color: var(--bright-blue);
+  font-weight: 700;
+}
+
+.summary__payment {
+  background-color: var(--bright-blue);
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  margin: 0 2rem;
+  padding: 0.75rem 0;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  box-shadow: 0 10px 30px hsla(245, 75%, 52%, 0.4);
+}
+
+.summary__cancel {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--desaturated-blue);
+}

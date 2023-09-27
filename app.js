@@ -34,7 +34,7 @@ const challenges = [
 const gridContainer = document.querySelector(".grid");
 
 const createGrid = () => {
-  challenges.map(({ name, link, youtube }) => {
+  challenges.map(({ name, youtube }) => {
     const cardElement = document.createElement("li");
     cardElement.classList.add("card");
     cardElement.innerHTML = `
