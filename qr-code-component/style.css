@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
+/* The universal selector, or wildcard, will match elements of any type. It is used here to implement border-box and reset the margins on all elements. */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +18,7 @@ body {
 .container {
   max-width: 360px;
   background-color: hsl(0, 0%, 100%);
-  padding: 1.25rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 0 ;

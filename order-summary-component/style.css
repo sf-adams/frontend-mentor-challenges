@@ -1,3 +1,4 @@
+/* It is common to use the :root psuedo-class, so that custom properties can be applied globally across your HTML document */
 :root {
   --pale-blue: hsl(225, 100%, 94%);
   --bright-blue: hsl(245, 75%, 52%);
@@ -6,6 +7,7 @@
   --dark-blue: hsl(223, 47%, 23%);
 }
 
+/* The universal selector, or wildcard, will match elements of any type. It is used here to implement border-box and reset the margins on all elements. */
 * {
   box-sizing: border-box;
   margin: 0;
