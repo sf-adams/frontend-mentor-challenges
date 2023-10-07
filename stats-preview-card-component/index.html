@@ -9,13 +9,26 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
     <section class="card">
-      <div class="card__image"></div>
+      <img
+        class="card__image"
+        srcset="
+          ./images/favicon-32x32.png 32w,
+          ./images/image-header-mobile.jpg 654w
+        "
+        sizes="(max-width: 1024px) 654px,
+        32px"
+        src="./images/image-header-mobile.jpg"
+        alt="Insights image"
+      />
       <div class="card__text">
-        <h2 class="card__title">Get <span>insights</span> that help your business grow.</h2>
+        <h2 class="card__title">
+          Get <span>insights</span> that help your business grow.
+        </h2>
         <p class="card__description">
           Discover the benefits of data analytics and make better decisions
           regarding revenue, customer experience, and overall efficiency.
@@ -30,7 +43,7 @@
             <p class="card__stats-item-text">templates</p>
           </li>
           <li class="card__stats-item">
-            <p class="card__stats-item-number">12m+</p>
+            <p class="card__stats-item-number">12M+</p>
             <p class="card__stats-item-text">queries</p>
           </li>
         </ul>

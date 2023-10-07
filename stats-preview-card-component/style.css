@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  background: hsl(233, 47%, 7%);
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  background: hsl(244, 38%, 16%);
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card__image {
+  width: 100%;
+  height: 30%;
+  background-color: pink;
+  mix-blend-mode: overlay;
+}
+
+.card__text {
+  font-size: 1.25rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card__title {
+  color: hsl(0, 0%, 100%);
+}
+
+.card__title span {
+  color: hsl(277, 64%, 61%);
+}
+
+.card__description {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+.card__stats {
+  list-style-type: none;
+}
+
+.card__stats-item {
+  padding: 0.75rem 0;
+}
+
+.card__stats-item-number {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.card__stats-item-text {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.125rem;
+}
