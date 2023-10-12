@@ -18,7 +18,7 @@ body {
   background-color: var(--pale-blue);
   background-image: url("./images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain; /* This property is used to scale the background image to fit the container, while maintaining its aspect ratio. */
   font-family: "Red Hat Display", sans-serif;
   line-height: 1.75;
   min-height: 100vh;
@@ -42,6 +42,7 @@ body {
   padding: 1.5rem;
 }
 
+/* Lobotomized owl is used to select all direct children of the .summary element, and apply a top margin to them. It doesn't include the first child, so that the title is not affected. */
 .summary > * + * {
   margin-top: 1.5rem;
 }
@@ -96,23 +97,18 @@ button {
   border: none;
   font-family: inherit;
   font-weight: 700;
-  font-size: 1rem;
-  border-radius: 12px;
+  font-size: 0.875rem;
   cursor: pointer;
-  background-color: transparent;
 }
 
 .summary__payment {
   background-color: var(--bright-blue);
-  color: #ffffff;
-  text-decoration: none;
-  display: block;
+  color: hsl(0, 0%, 100%);
   padding: 1rem 0;
   border-radius: 0.5rem;
-  font-weight: 700;
-  font-size: 0.875rem;
   box-shadow: 0 10px 30px hsla(245, 75%, 52%, 0.4);
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, transform 0.2s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    transform 0.2s ease-in-out;
 }
 
 .summary__payment:hover {
@@ -121,13 +117,11 @@ button {
 }
 
 .summary__cancel {
-  display: block;
-  text-decoration: none;
-  font-weight: 700;
+  background-color: transparent;
   color: var(--desaturated-blue);
-  font-size: 0.875rem;
   margin-bottom: 1rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, transform 0.2s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    transform 0.2s ease-in-out;
 }
 
 .summary__cancel:hover {
