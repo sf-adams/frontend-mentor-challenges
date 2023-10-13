@@ -14,17 +14,15 @@
   </head>
   <body>
     <section class="card">
-      <img
-        class="card__image"
-        srcset="
-          ./images/favicon-32x32.png 32w,
-          ./images/image-header-mobile.jpg 654w
-        "
-        sizes="(max-width: 1024px) 654px,
-        32px"
-        src="./images/image-header-mobile.jpg"
-        alt="Insights image"
-      />
+      <figure class="card__image-wrapper">
+        <img
+          class="card__image"
+          srcset="./images/image-header-mobile.jpg 654w, ./images/image-header-desktop.jpg 540w"
+          sizes="(max-width: 768px) 654px, 540px"
+          src="./images/image-header-mobile.jpg"
+          alt="Workers in Office"
+        />
+      </figure>
       <div class="card__text">
         <h2 class="card__title">
           Get <span>insights</span> that help your business grow.
