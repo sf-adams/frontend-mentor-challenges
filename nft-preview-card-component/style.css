@@ -20,6 +20,9 @@ body {
   background-color: hsl(216, 50%, 16%);
   padding: 2rem;
   border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .card__image {
@@ -33,6 +36,7 @@ body {
 
 .card__description {
   font-weight: 300;
+  line-height: 1.5;
 }
 
 .card__details {
