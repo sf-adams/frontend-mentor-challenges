@@ -1,0 +1,19 @@
+{
+  "name": "frontend-mentor-challenges",
+  "version": "1.0.0",
+  "description": "A collection of Frontend Mentor challenges",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sf-adams/frontend-mentor-challenges.git"
+  },
+  "author": "sf-adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sf-adams/frontend-mentor-challenges/issues"
+  },
+  "homepage": "https://github.com/sf-adams/frontend-mentor-challenges#readme"
+}
