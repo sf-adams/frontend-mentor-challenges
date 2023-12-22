@@ -10,4 +10,15 @@ body {
   background-image: url(./images/bg-mobile.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  width: 150px;
 }
